@@ -3,15 +3,15 @@ Emission analysis for Euro from 2019-2024
 ## Libraries Used
 The following R libraries are utilized for this analysis:
 
-** tidyverse: A collection of packages for data manipulation, exploration, and visualization.
+- ** tidyverse: A collection of packages for data manipulation, exploration, and visualization.
 
-** ggplot2: Used for creating high-quality plots.
+- ** ggplot2: Used for creating high-quality plots.
 
-** dplyr: For data manipulation and summarization.
+- ** dplyr: For data manipulation and summarization.
 
-** lubridate: To handle and manipulate date-time data.
+- ** lubridate: To handle and manipulate date-time data.
 
-** gridExtra: Used for arranging multiple plots in a grid.
+- ** gridExtra: Used for arranging multiple plots in a grid.
 
 ## Data Preprocessing
 The dataset includes emissions data for multiple variables, including CO₂ emissions (in tons), NOₓ emissions (in kg), and SOₓ emissions (in kg).
@@ -50,15 +50,19 @@ Emission trends for CO₂, NOₓ, and SOₓ are plotted separately for different
 These plots are arranged in a 2x2 grid for better comparison.
 
 Plots
-** Emissions Trends Over Time
+- ** Emissions Trends Over Time
 This plot shows how emissions of CO₂, NOₓ, and SOₓ have changed over time.
-** Emissions by Flight Phase
+
+- ** Emissions by Flight Phase
 This plot shows the breakdown of emissions by different flight phases (e.g., cruise, landing, take-off).
-** Emissions by Flight Area and Type
+
+- ** Emissions by Flight Area and Type
 This plot shows the emissions breakdown by different flight areas and types.
-** Emissions by Market Segment
+
+- ** Emissions by Market Segment
 This plot shows emissions by market segment, such as business, cargo, and low-cost.
-** Comparative Emission Plots by Flight Area and Type
+
+- ** Comparative Emission Plots by Flight Area and Type
 These plots compare emissions by AREA and FLIGHT_TYPE for CO₂, NOₓ, and SOₓ over time.
 
 
